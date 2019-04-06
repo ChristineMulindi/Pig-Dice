@@ -1,7 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+
     background-image: url(../images/dice1.jpg);
-    background-size: 100%;
-    background-image: no-repeat;
-    
-    
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-decoration: none;
+
+}
+
+.brand-logo {
+    color: black;
+    font: bolder;
+    font-size: 20px;
+
+}
+
+.pig-wrapper {
+    font-family: 'Roboto Condensed',
+        sans-serif;
+    font-family: 'Lucida Sans';
+    margin-top: 150px;
+
+}
+
+.pig-wrapper1 {
+
+    font-family: 'Lato',
+        sans-serif;
+
+    margin-top: 40px;
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: justify;
+    font: bolder;
+}
+
+.pig-wrapper2 {
+    margin-top: 40px;
+}
+
+
+h2 {
+    font-size: 30px;
+    margin-top: 5px;
+
+}
+
+#section2 {
+    font-family: 'Dosis',
+        sans-serif;
+    font-size: 18px;
+    margin-top: 60%;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    text-decoration: none;
+}
+
+#playwrapper {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.btn btn-success {
+    border-radius: 2px;
+
 }
