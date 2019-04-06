@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/code.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pig-Dice-Game</title>
+
+</head>
+
+
+
+
+<body>
+
+
+
+    <div class="container">
+
+        <h1>PIG DICE GAME</h1>
+        <br>
+        <br>
+        <h2>RULES</h2>
+
+        <p>Each turn the player rolls two dice. If the player gets 1 on any of the dice he earns nothing and another
+            player gets
+            his turn. On getting 2-6 on the dice, player's sum is being added to his round score, until he decides
+            to hold his
+            current score. If the player holds his score, the other player gets his turn.</p>
+        <br>
+
+        <p>If a player gets 1s on any dice, the player loses all the points from his current and overall scores.
+            The player who got 100 (or more) points wins the game.</p>
+
+
+        <div class="row">
+            <div id="player1-header" class="active">
+                PLAYER 1 - TOTAL POINTS : <span id="player1-points">0</span>
+            </div>
+            </br>
+            <div>
+                <p>Turn Points: <span id="player1-turn-points">0</span></p>
+                <p><button id="player1-roll">ROLL</button> <button id="player1-hold">HOLD</button></p>
+            </div>
+
+
+            <div id="player2-header" class="active">
+                PLAYER 2 - TOTAL POINTS : <span id="player2-points">0</span>
+            </div>
+            </br>
+            <div>
+                <p>Turn Points: <span id="player2-turn-points">0</span></p>
+                <p><button id="player2-roll"disabled>ROLL</button> <button id="player2-hold"disabled>HOLD</button></p>
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>
