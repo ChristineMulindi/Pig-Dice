@@ -4,16 +4,18 @@ html {
 
 body {
 
-    background-image: url(../images/dice1.jpg);
+    background-image: url(../images/background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
     text-decoration: none;
+    color: #fff;
+    
 
 }
 
 .brand-logo {
-    color: black;
+    color: #fff;
     font: bolder;
     font-size: 20px;
 
@@ -53,23 +55,16 @@ h2 {
 
 }
 
-#section2 {
-    font-family: 'Dosis',
-        sans-serif;
-    font-size: 18px;
-    margin-top: 60%;
-    height: 100%;
-    width: 100%;
-    text-align: justify;
-    text-decoration: none;
-}
-
 #playwrapper {
     text-align: center;
     margin-top: 80px;
+
 }
 
-.btn btn-success {
-    border-radius: 2px;
-
+.btn-lg {
+    border-radius: 3px;
+background-color: black;
+color: #fff;
+text-decoration: none;
+border-color: #fff;
 }
