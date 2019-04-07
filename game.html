@@ -16,64 +16,79 @@
 
 </head>
 
-
-
-
 <body>
 
 
-
     <div class="container">
- 
-        <h1>PIG DICE GAME</h1>
-        
-
-    
-        <h2>RULES</h2>
-
-        <p>Each turn the player rolls two dice. If the player gets 1 on any of the dice he earns nothing and another
-            player gets
-            his turn. On getting 2-6 on the dice, player's sum is being added to his round score, until he decides
-            to hold his
-            current score. If the player holds his score, the other player gets his turn.</p>
-        <br>
-
-        <p>If a player gets 1s on any dice, the player loses all the points from his current and overall scores.
-            The player who got 100 (or more) points wins the game.</p>
-
-
         <div class="row">
-            <div class="area">
-                <div id="player1-header" class="active">
-
-                    PLAYER 1 - TOTAL POINTS : <span id="player1-points">0</span>
-                </div>
-                </br>
-                <div>
-                    <p>Turn Points: <span id="player1-turn-points">0</span></p>
-                    <p><img id = "player1-roll-img" src="images/dice1.png"></p>
-                    <p><button id="player1-roll">ROLL</button> <button id="player1-hold">HOLD</button></p>
-                </div>
-            </div>
-
-            <div class="area">
-                <div id="player2-header" class="active">
-                    PLAYER 2 - TOTAL POINTS : <span id="player2-points">0</span>
-                </div>
-                </br>
-                <div>
-                    <p>Turn Points: <span id="player2-turn-points">0</span></p>
-                    <p><img id = "player2-roll-img" src="images/dice1.png"></p>
-                    <p><button id="player2-roll" disabled>ROLL</button> <button id="player2-hold" disabled>HOLD</button>
-                    </p>
+            <div class="col-md-12">
+                <div class="jumbotron">
+                    <h1>PIG DICE GAME</h1>
                 </div>
 
 
-            </div>
+                <h2>RULES</h2>
+                <ul>
+                    <li>
+                        <p>Each turn the player rolls a dice.</p>
+                    </li>
+                    <li>
+                        <p>If the player gets 1 on any of the dice the player earns nothing and another player gets their turn.
+                        </p>
+                    </li>
+                    <li>
+                        <p>On getting 2-6 on the dice, the player's sum is added to their turn points, until the player decides to
+                            hold their
+                            total points.</p>
+                    </li>
+                    <li>
+                        <p> If the player holds their turn points, the other player gets their turn.</p>
+                    </li>
 
-
+                    <li>
+                        <p>The player who gets 100 (or more) points wins the game.</p>
+                    </li>
+                </ul>
+            </div>  
         </div>
 
+        <div class="row">
+            <div class="col-md-6">
+                <div class="area">
+                    <div id="player1-header" class="active">
+
+                        PLAYER 1 - TOTAL POINTS : <span id="player1-points">0</span>
+                    </div>
+                    </br>
+                    <div>
+                        <p>Turn Points: <span id="player1-turn-points">0</span></p>
+                        <p><img id="player1-roll-img" src="images/dice1.png"></p>
+                        <p><button id="player1-roll" class="btn btn-success">ROLL</button> <button id="player1-hold"
+                                class="btn btn-danger">HOLD</button></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="area">
+                    <div id="player2-header" class="active">
+                        PLAYER 2 - TOTAL POINTS : <span id="player2-points">0</span>
+                    </div>
+                    </br>
+                    <div>
+                        <p>Turn Points: <span id="player2-turn-points">0</span></p>
+                        <p><img id="player2-roll-img" src="images/dice1.png"></p>
+                        <p><button id="player2-roll" class="btn btn-success" disabled>ROLL</button> <button
+                                id="player2-hold" class="btn btn-danger" disabled>HOLD</button>
+                        </p>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+        </div>
 </body>
 
 </html>
