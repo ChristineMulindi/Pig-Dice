@@ -24,10 +24,11 @@
 
 
     <div class="container">
-
+ 
         <h1>PIG DICE GAME</h1>
-        <br>
-        <br>
+        
+
+    
         <h2>RULES</h2>
 
         <p>Each turn the player rolls two dice. If the player gets 1 on any of the dice he earns nothing and another
@@ -42,30 +43,36 @@
 
 
         <div class="row">
-            <div id="player1-header" class="active">
-                PLAYER 1 - TOTAL POINTS : <span id="player1-points">0</span>
-            </div>
-            </br>
-            <div>
-                <p>Turn Points: <span id="player1-turn-points">0</span></p>
-                <p><button id="player1-roll">ROLL</button> <button id="player1-hold">HOLD</button></p>
+            <div class="area">
+                <div id="player1-header" class="active">
+
+                    PLAYER 1 - TOTAL POINTS : <span id="player1-points">0</span>
+                </div>
+                </br>
+                <div>
+                    <p>Turn Points: <span id="player1-turn-points">0</span></p>
+                    <p><img id = "player1-roll-img" src="images/dice1.png"></p>
+                    <p><button id="player1-roll">ROLL</button> <button id="player1-hold">HOLD</button></p>
+                </div>
             </div>
 
+            <div class="area">
+                <div id="player2-header" class="active">
+                    PLAYER 2 - TOTAL POINTS : <span id="player2-points">0</span>
+                </div>
+                </br>
+                <div>
+                    <p>Turn Points: <span id="player2-turn-points">0</span></p>
+                    <p><img id = "player2-roll-img" src="images/dice1.png"></p>
+                    <p><button id="player2-roll" disabled>ROLL</button> <button id="player2-hold" disabled>HOLD</button>
+                    </p>
+                </div>
 
-            <div id="player2-header" class="active">
-                PLAYER 2 - TOTAL POINTS : <span id="player2-points">0</span>
-            </div>
-            </br>
-            <div>
-                <p>Turn Points: <span id="player2-turn-points">0</span></p>
-                <p><button id="player2-roll"disabled>ROLL</button> <button id="player2-hold"disabled>HOLD</button></p>
+
             </div>
 
 
         </div>
-
-
-    </div>
 
 </body>
 
