@@ -1,0 +1,35 @@
+body {
+    background-color: brown;
+    width: 1200px;
+    margin: auto;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.area{
+    border: 1px solid grey;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 50px;
+}
+
+#player1-header{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+}
+#player2-header{
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    }
+.active {
+    background-color: green;
+    color: white;
+}
