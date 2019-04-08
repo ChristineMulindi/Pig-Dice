@@ -1,6 +1,5 @@
 body {
     background-color: maroon;
-    width: 1200px;
     margin: auto;
     color: #fff;
     font-family: sans-serif;
@@ -47,4 +46,7 @@ body {
 .active {
     background-color: green;
     color: white;
+}
+.resetwrapper {
+    text-align: center;
 }
