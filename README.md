@@ -21,7 +21,7 @@ This game is therefore expected to work as following:
 | Player holds turning         |  Click to hold turning point | Adds turning points to total points  |
 | Player rolls a dice with one |  Click to roll e.g 1         | Adds 0 to total points and passes turn to other player                |
 | Player reaches 100           |             -                | Player wins
-| Reset the game               |  CLick to reset              | Sets total points to zero
+| Reset the game               |  Click to reset              | Sets total points to zero
 ## Technologies Used
 * HTML
 * JavaScript
