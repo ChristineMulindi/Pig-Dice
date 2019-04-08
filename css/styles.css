@@ -5,7 +5,8 @@ html {
 body {
 
     background-image: url(../images/background.jpg);
-    background-size: 100% 100%;
+    background-size: cover;
+
     background-repeat: no-repeat;
     text-decoration: none;
     color: #fff;
@@ -64,8 +65,3 @@ h2 {
     border-radius: 3px;
 }
 
-@media screen and (max-width: 600px) {
-    body {
-        background-size: cover;
-    }
-}
