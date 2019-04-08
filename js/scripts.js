@@ -138,6 +138,7 @@ window.onload = function () {
 
 
 }
+
 function myFunction() {
     location.reload();
 }
